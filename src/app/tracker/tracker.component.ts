@@ -8,9 +8,7 @@ declare var JEEFACETRANSFERAPI: any;
   styleUrls: ['./tracker.component.css']
 })
 export class TrackerComponent implements AfterViewInit {
-  @ViewChild('videoPlayer', { static: false }) vid: ElementRef;
   @ViewChild('startButton', { static: true }) startButton: ElementRef;
-  @ViewChild('myCanvas', { static: true }) canvasElement: ElementRef;
 
   trackingStarted = false;
 
