@@ -1,20 +1,20 @@
 {
   "name": "jeelizWeboji-angular-electron-example",
-  "version": "6.4.1",
+  "version": "1.0.0",
   "description": "jeelizWeboji with Angular 8 and Electron",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "homepage": "https://github.com/JeffWinder/jeelizWeboji-angular-electron-example",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Jeff Winder",
+    "email": "info@jeffwinder.nl"
   },
   "keywords": [
     "angular",
     "angular 8",
     "electron",
+    "face tracking",
+    "jeelizweboji",
     "typescript",
-    "eslint",
-    "spectron",
-    "sass"
+    "eslint"
   ],
   "main": "main.js",
   "private": true,
