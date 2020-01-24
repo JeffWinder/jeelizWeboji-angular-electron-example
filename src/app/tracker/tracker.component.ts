@@ -51,12 +51,9 @@ export class TrackerComponent implements AfterViewInit {
     this.trackingStarted = true;
     this.enableStart();
 
-    JEEFACETRANSFERAPI.on_detect((state) => {
-      console.log('state: ', state);
+    JEEFACETRANSFERAPI.onLoad(() => {
       console.log('morphs: ', JEEFACETRANSFERAPI.get_morphTargetInfluences());
-      if (state) {
-        this.drawLoop();
-      }
+      this.drawLoop();
     });
   }
 
